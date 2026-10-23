@@ -19,14 +19,14 @@ src/
   config/db.js                  Conexión a MySQL (pool de conexiones)
   controllers/authController.js Lógica de registro e inicio de sesión
   routes/authRoutes.js          Definición de las rutas
-database/                       Script SQL de la base de datos
+basdedatos/                       Script SQL de la base de datos
 .env.example                    Plantilla de configuración
 ```
 
 ## Instalación
 
 1. Instalar las dependencias: `npm install`
-2. Encender MySQL en XAMPP e importar en phpMyAdmin el archivo `.sql` de la carpeta `database`.
+2. Encender MySQL en XAMPP e importar en phpMyAdmin el archivo `.sql` de la carpeta `basededatos`.
 3. Copiar `.env.example` como `.env` (los valores por defecto sirven para XAMPP).
 4. Arrancar el servicio: `npm start` (o `npm run dev` para que se reinicie al guardar cambios).
 
