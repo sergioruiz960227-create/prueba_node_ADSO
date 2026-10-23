@@ -19,7 +19,7 @@ src/
   config/db.js                  Conexión a MySQL (pool de conexiones)
   controllers/authController.js Lógica de registro e inicio de sesión
   routes/authRoutes.js          Definición de las rutas
-basdedatos/                       Script SQL de la base de datos
+basededatos/                       Script SQL de la base de datos
 .env.example                    Plantilla de configuración
 ```
 

@@ -10,7 +10,7 @@ const puerto = process.env.PORT || 3000;
 // Permite recibir y leer cuerpos de petición en formato JSON
 app.use(express.json());
 
-// Todas las rutas de autenticación cuelgan de /api/auth
+// Todas las rutas de autenticación cuelgan de /api
 app.use('/api', authRoutes);
 
 // Ruta raíz para comprobar que el servicio está activo

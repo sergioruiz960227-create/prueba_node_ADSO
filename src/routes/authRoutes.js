@@ -4,7 +4,7 @@ const { registrar, iniciarSesion } = require('../controllers/authController');
 
 const router = Router();
 
-// POST /api//register -> registra un usuario nuevo
+// POST /api/register -> registra un usuario nuevo
 router.post('/register', registrar);
 
 // POST /api/login -> valida usuario y contraseña
