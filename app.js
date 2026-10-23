@@ -11,7 +11,7 @@ const puerto = process.env.PORT || 3000;
 app.use(express.json());
 
 // Todas las rutas de autenticación cuelgan de /api/auth
-app.use('/api/auth', authRoutes);
+app.use('/api', authRoutes);
 
 // Ruta raíz para comprobar que el servicio está activo
 app.get('/', (req, res) => {
